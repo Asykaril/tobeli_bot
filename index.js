@@ -92,7 +92,7 @@ const marahReplies = [
 ];
 
 
-client.once("ready", () => {
+client.once("clientReady", () => {
     console.log(`🤖 Tobeli online sebagai ${client.user.tag}`);
 });
 
@@ -212,8 +212,6 @@ for (const word of kasarWords) {
         jutekReplies[Math.floor(Math.random() * jutekReplies.length)]
     );
 });
-
-
 
 
 
